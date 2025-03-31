@@ -20,21 +20,38 @@ Transform your boring text into fun emoji-filled messages! The Emoji Text Enhanc
 - TensorFlow (if applicable)
 - Other dependencies (listed in `requirements.txt`)
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/emoji-text-enhancer.git
-   cd emoji-text-enhancer
-   ```
-2. Install dependencies:
+### Setup Environment
+1. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the application:
+
+### Process Data and Create Mappings
+1. Create word-emoji mappings:
+   ```bash
+   python data/scripts/create_word_emoji_map.py
+   ```
+2. Create sentiment-emoji mappings:
+   ```bash
+   python data/scripts/create_sentiment_emoji_map.py
+   ```
+3. Split the dataset:
+   ```bash
+   python data/scripts/split_dataset.py
+   ```
+
+### Train the Model
+1. Run the training script:
+   ```bash
+   python src/train.py
+   ```
+
+### Run the Website
+1. Start the web application:
    ```bash
    python app/app.py
    ```
-4. Open your browser and visit `http://127.0.0.1:5000`
+2. Open your browser and visit `http://127.0.0.1:5000`
 
 ## Project Structure 📂
 ```
