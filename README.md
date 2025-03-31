@@ -2,7 +2,7 @@
 
 Transform your boring text into fun emoji-filled messages! The Emoji Text Enhancer intelligently suggests relevant emojis based on the meaning and sentiment of your text, making your messages more expressive and engaging.
 
-![Emoji Text Enhancer](website.png)
+![Emoji Text Enhancer](/images/website.png)
 
 ## Features 🚀
 - **Intelligent Emoji Suggestions:** Adds emojis based on sentiment and word meaning.
