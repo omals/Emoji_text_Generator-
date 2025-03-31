@@ -1,0 +1,6 @@
+# Ignore large model files
+models/emoji_model.pth
+
+# Ignore large data files
+data/processed/train.csv
+data/raw/sentiment140.csv
